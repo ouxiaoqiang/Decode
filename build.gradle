@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "27.0.3"
+
+    defaultConfig {
+        applicationId "com.jmgo.decode"
+        minSdkVersion 18
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets.main {
+        jniLibs.srcDirs = ['src/jniLibs'];
+    }
+}
+dependencies {
+    compile files('src/jniLibs/BmobSDK_3.6.5_20180709.jar')
+    compile files('src/jniLibs/okio-1.12.0.jar')
+    compile files('src/jniLibs/org.apache.http.legacy.jar')
+    compile files('src/jniLibs/rxandroid-1.2.0.jar')
+    compile files('src/jniLibs/rxjava-1.1.6.jar')
+    compile files('src/jniLibs/gson-2.2.jar')
+    testCompile 'junit:junit:4.10'
+    provided files('src/jniLibs/HolatekOSv4.jar')
+}

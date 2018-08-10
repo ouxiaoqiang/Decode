@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">注册</string>
+	<string name="action_settings">設定</string>
+	<string name="register">注册</string>
+	<string name="networking">網絡</string>
+	<string name="tip">提示：請先連接網絡，再進行注册！</string>
+	<string name="warnning">警告：請在5分鐘之內注册，否則系統會關機！</string>
+	<string name="login_success">注册成功！</string>
+	<string name="login_fail">注册失敗：</string>
+	<string name="login_null">註冊碼不能為空！</string>
+	<string name="login_fail1">注册失敗，註冊碼有誤！</string>
+	<string name="login_fail2">注册失敗，請檢查網絡！</string>
+	<string name="login_fail3">注册失敗，網絡時間有誤，請重試!</string>
+	<string name="login_remain">注册剩餘：</string>
+	<string name="login_no">請聯系管理員充值！</string>
+	<string name="login_fail4">時間同步失敗！</string>
+
+</resources>

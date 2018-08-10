@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">registreeritud</string>
+	<string name="action_settings">sätted</string>
+	<string name="register">registreeritud</string>
+	<string name="networking">võrgustik</string>
+	<string name="tip">märkus: palun ühendada võrku, siis on registreeritud!!!!!!!</string>
+	<string name="warnning">hoiatus: palun 5 minuti jooksul registreeritud, muidu süsteem on välja lülitatud.</string>
+	<string name="login_success">registreeritud edu!!!!!!!</string>
+	<string name="login_fail">registreerimine:</string>
+	<string name="login_null">kood ei ole tühi!!!!!!!</string>
+	<string name="login_fail1">kood, kui registreerimine, on vale!</string>
+	<string name="login_fail2">registreeritud, ei. palun kontrollige võrku.</string>
+	<string name="login_remain">registreeritud ülejääk:</string>
+	<string name="login_no">palun loe uuesti laadida!</string>
+
+</resources>

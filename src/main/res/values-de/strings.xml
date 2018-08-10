@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Eintragung</string>
+	<string name="action_settings">Einstellungen</string>
+	<string name="register">Eintragung</string>
+	<string name="networking">Netzwerk</string>
+	<string name="tip">Ratschlag: bitte zuerst im Netz, dann registriert.</string>
+	<string name="warnning">Warnung: bitte fünf minuten registriert sind, oder das System kann abschalten!</string>
+	<string name="login_success">Register erfolgreich!</string>
+	<string name="login_fail">Eintragung versagen:</string>
+	<string name="login_null">Registrierungs - code kann nicht Leer sein!</string>
+	<string name="login_fail1">Eintragung versagen, registrierungs - code IST falsch!</string>
+	<string name="login_fail2">Die registrierung nicht. Bitte überprüfen sie die Netzwerk -!!!!!!!</string>
+	<string name="login_remain">Registrierten überschuss:</string>
+	<string name="login_no">Kontaktieren sie bitte den webmaster aufladen!</string>
+
+</resources>

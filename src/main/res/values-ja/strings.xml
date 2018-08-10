@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">登録する</string>
+	<string name="action_settings">設定</string>
+	<string name="register">登録する</string>
+	<string name="networking">ネットワーク</string>
+	<string name="tip">ヒント：ネットを先に接続して、登録してください。</string>
+	<string name="warnning">警告：5分以内に登録してください。</string>
+	<string name="login_success">登録成功！</string>
+	<string name="login_fail">登録失敗：</string>
+	<string name="login_null">登録コードは空になってはいけません。</string>
+	<string name="login_fail1">登録コードが間違っています。</string>
+	<string name="login_fail2">登録失敗、ネットワークをチェックしてください！</string>
+	<string name="login_remain">登録した残り:</string>
+	<string name="login_no">管理人に連絡してください！</string>
+
+</resources>

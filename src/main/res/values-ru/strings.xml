@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">регистрация</string>
+	<string name="action_settings">Настройка</string>
+	<string name="register">регистрация</string>
+	<string name="networking">сеть</string>
+	<string name="tip">Подсказка: сначала свяжитесь с сетью и Зарегистрируйте снова!</string>
+	<string name="warnning">Внимание: пожалуйста, зарегистрируйтесь в течение 5 минут, иначе система будет выключена!</string>
+	<string name="login_success">регистрация успешна!</string>
+	<string name="login_fail">Ошибка регистрации:</string>
+	<string name="login_null">регистрационный код не может быть свободен!</string>
+	<string name="login_fail1">регистрация провалилась, и регистрационный код был ошибкой!</string>
+	<string name="login_fail2">регистрация провалилась, пожалуйста, проверьте сеть!</string>
+	<string name="login_remain">зарегистрированный остаток:</string>
+	<string name="login_no">Пожалуйста, свяжитесь с администратором по связям!</string>
+
+</resources>

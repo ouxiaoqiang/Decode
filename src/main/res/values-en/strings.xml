@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">register</string>
+	<string name="action_settings">Set up</string>
+	<string name="register">register</string>
+	<string name="networking">network</string>
+	<string name="tip">Prompt: please connect the network first, and then register!</string>
+	<string name="warnning">Warning: please register within 5 minutes, otherwise the system will be turned off.</string>
+	<string name="login_success">Registration is successful!</string>
+	<string name="login_fail">Registration failure:</string>
+	<string name="login_null">Registration code can not be empty!</string>
+	<string name="login_fail1">Registration failure, registration code is wrong!</string>
+	<string name="login_fail2">Registration failed, please check the network!</string>
+	<string name="login_remain">Registered remainder:</string>
+	<string name="login_no">Please contact the administrator to recharge it!</string>
+
+</resources>

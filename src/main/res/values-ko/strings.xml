@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">책.</string>
+	<string name="action_settings">설치</string>
+	<string name="register">책.</string>
+	<string name="networking">인터넷</string>
+	<string name="tip">팁: 먼저 네트워크를 연결해, 다시 등록해 주세요!</string>
+	<string name="warnning">경고: 5 분 안에 등록하세요, 그렇지 않으면 시스템이 꺼집니다!</string>
+	<string name="login_success">등록 성공!</string>
+	<string name="login_fail">등록 실패:</string>
+	<string name="login_null">등록 번호는 비울 수 없습니다!</string>
+	<string name="login_fail1">등록 실패, 등록 코드 오류!</string>
+	<string name="login_fail2">등록 실패. 네트워크를 검사해 주세요!</string>
+	<string name="login_remain">등록된 잉여:</string>
+	<string name="login_no">관리원에게 연락 값을 충전하세요!</string>
+
+</resources>

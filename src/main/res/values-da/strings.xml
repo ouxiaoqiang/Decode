@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">registrering</string>
+	<string name="action_settings">indstillinger</string>
+	<string name="register">registrering</string>
+	<string name="networking">net</string>
+	<string name="tip">tip: vær venlig at forbinde net, registrere!</string>
+	<string name="warnning">advarsel: vær venlig at registrere i 5 minutter, ellers vil systemet magt.</string>
+	<string name="login_success">register med succes.</string>
+	<string name="login_fail">registrering ikke:</string>
+	<string name="login_null">registrering kode, kan ikke være tom.</string>
+	<string name="login_fail1">registrering af fejl, registrering kode er forkert!</string>
+	<string name="login_fail2">registrering mislykkedes, tjek nettet.</string>
+	<string name="login_remain">registreret overskud:</string>
+	<string name="login_no">kontakt administrator genoplade!</string>
+
+</resources>

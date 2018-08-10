@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">注册</string>
+	<string name="action_settings">设置</string>
+	<string name="register">注册</string>
+	<string name="networking">网络</string>
+	<string name="tip">提示：请先连接网络，再进行注册！</string>
+	<string name="warnning">警告：请在5分钟之内注册，否则系统会关机！</string>
+	<string name="login_success">注册成功!</string>
+	<string name="login_fail">注册失败：</string>
+	<string name="login_null">注册码不能为空!</string>
+	<string name="login_fail1">注册失败，注册码有误!</string>
+	<string name="login_fail2">注册失败，请检查网络!</string>
+	<string name="login_fail3">注册失败，网络时间有误，请重试!</string>
+	<string name="login_remain">注册剩余：</string>
+	<string name="login_no">请联系管理员充值！</string>
+	<string name="login_fail4">时间同步失败!</string>
+
+
+</resources>

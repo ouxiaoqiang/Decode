@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">De registratie</string>
+	<string name="action_settings">Die</string>
+	<string name="register">De registratie</string>
+	<string name="networking">Het netwerk</string>
+	<string name="tip">Tip: alsjeblieft, verbonden met het netwerk, en geregistreerd.</string>
+	<string name="warnning">Waarschuwing: u in vijf minuten geregistreerd, anders zal het systeem uitschakelen.</string>
+	<string name="login_success">Registratie van succes.</string>
+	<string name="login_fail">De registratie niet:</string>
+	<string name="login_null">De code is niet leeg.</string>
+	<string name="login_fail1">Niet de registratie, de code is verkeerd.</string>
+	<string name="login_fail2">De registratie niet, controleer je netwerk.</string>
+	<string name="login_remain">De registratie van de resterende:</string>
+	<string name="login_no">Neem contact op met de beheerder opladen.</string>
+
+</resources>

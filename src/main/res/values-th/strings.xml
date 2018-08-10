@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">การลงทะเบียน</string>
+	<string name="action_settings">การตั้งค่า</string>
+	<string name="register">การลงทะเบียน</string>
+	<string name="networking">เครือข่าย</string>
+	<string name="tip">คำแนะนำ : กรุณาลงทะเบียนก่อนเพื่อเชื่อมต่อกับเครือข่ายแล้ว ! ! ! ! ! ! !</string>
+	<string name="warnning">คำเตือน : กรุณาลงทะเบียนใน 5 นาทีมิฉะนั้นระบบจะปิดตัวลง ! ! ! ! ! ! !</string>
+	<string name="login_success">ความสำเร็จของการลงทะเบียน ! ! ! ! ! ! !</string>
+	<string name="login_fail">ล้มเหลวในการลงทะเบียน :</string>
+	<string name="login_null">รหัสลงทะเบียนจะว่างเปล่า ! ! ! ! ! ! !</string>
+	<string name="login_fail1">ล้มเหลวในการลงทะเบียน , รหัสลงทะเบียนผิด ! ! ! ! ! ! !</string>
+	<string name="login_fail2">ล้มเหลวในการลงทะเบียนและตรวจสอบเครือข่าย ! ! ! ! ! ! !</string>
+	<string name="login_remain">ที่เหลือที่จดทะเบียน :</string>
+	<string name="login_no">กรุณาติดต่อผู้ดูแลระบบไว้ ! ! ! ! ! ! !</string>
+
+</resources>

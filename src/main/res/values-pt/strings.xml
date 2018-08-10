@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">O Registro</string>
+	<string name="action_settings">Set</string>
+	<string name="register">O Registro</string>
+	<string name="networking">A rede</string>
+	<string name="tip">DICA: Por favor, conexão de rede e, EM seguida, O registo!</string>
+	<string name="warnning">Aviso: Por favor, registrada EM 5 minutos, CaSO contrário, O sistema irá desligar!</string>
+	<string name="login_success">O registo com SUCESSO!</string>
+	<string name="login_fail">Registro falhou:</string>
+	<string name="login_null">Código de registo não Pode ser vazio!</string>
+	<string name="login_fail1">Falha de Registro, Registro de código de erro!</string>
+	<string name="login_fail2">Registro falhou, por favor verifique a rede!</string>
+	<string name="login_remain">O de registo:</string>
+	<string name="login_no">Por favor, entre EM Contato com o Administrador de recarga!</string>
+
+</resources>
