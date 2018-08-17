@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">înregistrarea</string>
+	<string name="action_settings">de stabilire a</string>
+	<string name="register">înregistrarea</string>
+	<string name="networking">reţeaua</string>
+	<string name="tip">indiciu: te rog, conectarea la rețea, înainte de înregistrarea!</string>
+	<string name="warnning">avertisment: te rog, înregistrată în 5 minute, altfel sistemul de oprire!</string>
+	<string name="login_success">succesul înregistrat!</string>
+	<string name="login_fail">nu s - a înregistrat:</string>
+	<string name="login_null">codul de înregistrare nu este gol!</string>
+	<string name="login_fail1">nu s - a înregistrat, un cod de eroare!</string>
+	<string name="login_fail2">înregistrarea nu verifică reţeaua!</string>
+	<string name="login_fail3">nu s - a înregistrat, reţeaua e greşit, te rog, încearcă din nou!</string>
+	<string name="login_remain">restul de înregistrare:</string>
+	<string name="login_no">te rog, administrator, reîncărcaţi!</string>
+	<string name="login_fail4">sincronizare a eşuat!</string>
+
+</resources>

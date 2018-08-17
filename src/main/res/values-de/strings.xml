@@ -12,7 +12,9 @@
 	<string name="login_null">Registrierungs - code kann nicht Leer sein!</string>
 	<string name="login_fail1">Eintragung versagen, registrierungs - code IST falsch!</string>
 	<string name="login_fail2">Die registrierung nicht. Bitte überprüfen sie die Netzwerk -!!!!!!!</string>
+	<string name="login_fail3">Eintragung versagen, Internet - Zeit IST falsch, bitte versuchen sie es erneut.</string>
 	<string name="login_remain">Registrierten überschuss:</string>
 	<string name="login_no">Kontaktieren sie bitte den webmaster aufladen!</string>
+	<string name="login_fail4">Synchronisation versagt.</string>
 
 </resources>

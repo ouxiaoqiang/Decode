@@ -12,7 +12,9 @@
 	<string name="login_null">регистрационный код не может быть свободен!</string>
 	<string name="login_fail1">регистрация провалилась, и регистрационный код был ошибкой!</string>
 	<string name="login_fail2">регистрация провалилась, пожалуйста, проверьте сеть!</string>
+	<string name="login_fail3">регистрация провалилась, сетевая ошибка, пожалуйста, попробуешь снова!</string>
 	<string name="login_remain">зарегистрированный остаток:</string>
 	<string name="login_no">Пожалуйста, свяжитесь с администратором по связям!</string>
+	<string name="login_fail4">временная синхронизация потерпела неудачу!</string>
 
 </resources>

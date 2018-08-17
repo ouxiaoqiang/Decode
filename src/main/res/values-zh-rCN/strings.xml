@@ -12,8 +12,8 @@
 	<string name="login_null">注册码不能为空!</string>
 	<string name="login_fail1">注册失败，注册码有误!</string>
 	<string name="login_fail2">注册失败，请检查网络!</string>
-	<string name="login_fail3">注册失败，网络时间有误，请重试!</string>
-	<string name="login_remain">注册剩余：</string>
+	<string name="login_fail3">注册失败，系统时间同步出错，无法注册请重启机器!</string>
+	<string name="login_remain">注册剩余： </string>
 	<string name="login_no">请联系管理员充值！</string>
 	<string name="login_fail4">时间同步失败!</string>
 

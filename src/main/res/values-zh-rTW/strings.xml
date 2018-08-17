@@ -12,7 +12,7 @@
 	<string name="login_null">註冊碼不能為空！</string>
 	<string name="login_fail1">注册失敗，註冊碼有誤！</string>
 	<string name="login_fail2">注册失敗，請檢查網絡！</string>
-	<string name="login_fail3">注册失敗，網絡時間有誤，請重試!</string>
+	<string name="login_fail3">注册失敗，網絡時間有誤，無法注冊請重起機器！</string>
 	<string name="login_remain">注册剩餘：</string>
 	<string name="login_no">請聯系管理員充值！</string>
 	<string name="login_fail4">時間同步失敗！</string>

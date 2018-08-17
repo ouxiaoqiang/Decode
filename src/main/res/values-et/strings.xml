@@ -12,7 +12,9 @@
 	<string name="login_null">kood ei ole tühi!!!!!!!</string>
 	<string name="login_fail1">kood, kui registreerimine, on vale!</string>
 	<string name="login_fail2">registreeritud, ei. palun kontrollige võrku.</string>
+	<string name="login_fail3">registreerimine ei ole võrgu, aeg on vale, palun proovige uuesti.</string>
 	<string name="login_remain">registreeritud ülejääk:</string>
 	<string name="login_no">palun loe uuesti laadida!</string>
+	<string name="login_fail4">aeg on läbi!</string>
 
 </resources>

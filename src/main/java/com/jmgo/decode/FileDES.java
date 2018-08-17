@@ -1,8 +1,6 @@
 package com.jmgo.decode;
+import android.content.Context;
 
-/**
- * Created by ouxiaoqiang on 2018/7/25.
- */
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -16,7 +14,7 @@ import javax.crypto.CipherInputStream;
 import javax.crypto.spec.SecretKeySpec;
 
 /**
- * Created by Administrator on 2016/1/14.
+ * Created by ouxiaoqiang on 2018/7/25.
  */
 public class FileDES {
     /**
@@ -31,8 +29,10 @@ public class FileDES {
      * 加密的密码
      */
     private Cipher mEncryptCipher;
+    private Context mContext;
 
-    public FileDES(String key) throws Exception {
+    public FileDES(String key,  Context context) throws Exception {
+        mContext = context;
         initKey(key);
         initCipher();
     }
@@ -75,7 +75,7 @@ public class FileDES {
      */
     public void doEncryptFile(InputStream in, String savePath) {
         if (in == null) {
-            System.out.println("inputstream is null");
+         //   System.out.println("inputstream is null");
             return;
         }
         try {
@@ -90,9 +90,9 @@ public class FileDES {
             os.close();
             cin.close();
             in.close();
-            System.out.println("加密成功");
+       //     System.out.println("加密成功");
         } catch (Exception e) {
-            System.out.println("加密失败");
+         //   System.out.println("加密失败");
             e.printStackTrace();
         }
     }
@@ -108,7 +108,6 @@ public class FileDES {
         doEncryptFile(new FileInputStream(filePath), savePath);
     }
 
-
     /**
      * 解密文件
      *
@@ -116,7 +115,7 @@ public class FileDES {
      */
     public void doDecryptFile(InputStream in, String path) {
         if (in == null) {
-            System.out.println("inputstream is null");
+           // System.out.println("inputstream is null");
             return;
         }
         try {
@@ -125,14 +124,15 @@ public class FileDES {
             byte[] bytes = new byte[1024];
             int length = -1;
             while ((length = cin.read(bytes)) > 0) {
+                String s = new String(bytes);
                 outputStream.write(bytes, 0, length);
                 outputStream.flush();
             }
             cin.close();
             in.close();
-            System.out.println("解密成功");
+          //  System.out.println("解密成功");
         } catch (Exception e) {
-            System.out.println("解密失败");
+         //   System.out.println("解密失败");
             e.printStackTrace();
         }
     }
@@ -147,11 +147,34 @@ public class FileDES {
         doDecryptFile(new FileInputStream(filePath), outPath);
     }
 
-
-    public static void main(String[] args) throws Exception {
-        FileDES fileDES = new FileDES("spring.sky");
-        fileDES.doEncryptFile("d:/a.txt", "d:/b");  //加密
-//        fileDES.doDecryptFile("d:/b"); //解密
+    /**
+     * 解密文件
+     *
+     * @param filePath
+     */
+    public StringBuilder doDecryptFile(String filePath) throws Exception{
+        InputStream in = new FileInputStream(filePath);
+        if (in == null) {
+            return null;
+        }
+            CipherInputStream cin = new CipherInputStream(in, mDecryptCipher);
+            StringBuilder stringBuilder = new StringBuilder("");
+            byte[] bytes = new byte[1024];
+            int length = -1;
+            while (cin.read(bytes) > 0) {
+                String s = new String(bytes);
+                stringBuilder.append(s);
+            }
+            cin.close();
+            in.close();
+            return stringBuilder;
     }
+
+
+//    public static void main(String[] args) throws Exception {
+//        FileDES fileDES = new FileDES("spring.sky");
+//        fileDES.doEncryptFile("d:/a.txt", "d:/b");  //加密
+////        fileDES.doDecryptFile("d:/b"); //解密
+//    }
 
 }

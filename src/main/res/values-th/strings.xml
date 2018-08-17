@@ -12,7 +12,9 @@
 	<string name="login_null">รหัสลงทะเบียนจะว่างเปล่า ! ! ! ! ! ! !</string>
 	<string name="login_fail1">ล้มเหลวในการลงทะเบียน , รหัสลงทะเบียนผิด ! ! ! ! ! ! !</string>
 	<string name="login_fail2">ล้มเหลวในการลงทะเบียนและตรวจสอบเครือข่าย ! ! ! ! ! ! !</string>
+	<string name="login_fail3">การลงทะเบียนล้มเหลวเวลาเครือข่ายไม่ถูกต้อง , กรุณาลองใหม่อีกครั้ง ! ! ! ! ! ! !</string>
 	<string name="login_remain">ที่เหลือที่จดทะเบียน :</string>
 	<string name="login_no">กรุณาติดต่อผู้ดูแลระบบไว้ ! ! ! ! ! ! !</string>
+	<string name="login_fail4">การประสานเวลาที่ล้มเหลว ! ! ! ! ! ! !</string>
 
 </resources>

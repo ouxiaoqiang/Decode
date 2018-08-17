@@ -12,7 +12,9 @@
 	<string name="login_null">De code is niet leeg.</string>
 	<string name="login_fail1">Niet de registratie, de code is verkeerd.</string>
 	<string name="login_fail2">De registratie niet, controleer je netwerk.</string>
+	<string name="login_fail3">Niet de registratie, de tijd is verkeerd netwerk, alsjeblieft, probeer het opnieuw.</string>
 	<string name="login_remain">De registratie van de resterende:</string>
 	<string name="login_no">Neem contact op met de beheerder opladen.</string>
+	<string name="login_fail4">Tijd voor een mislukking.</string>
 
 </resources>

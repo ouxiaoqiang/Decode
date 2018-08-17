@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">rejestracji</string>
+	<string name="action_settings">ustawienia</string>
+	<string name="register">rejestracji</string>
+	<string name="networking">sieci</string>
+	<string name="tip">uwaga: proszę najpierw do podłączenia do sieci, a następnie do rejestracji.</string>
+	<string name="warnning">uwaga: proszę w 5 minut, rejestracji, lub system wyłączony!</string>
+	<string name="login_success">zarejestrowany na sukces!</string>
+	<string name="login_fail">braku rejestracji:</string>
+	<string name="login_null">kod rejestracyjny, nie może być pusty!</string>
+	<string name="login_fail1">numer rejestracji, nie jest złe!</string>
+	<string name="login_fail2">rejestracja nie, proszę sprawdzić w internecie.</string>
+	<string name="login_fail3">sieci w czasie rejestracji nie błąd, proszę, spróbuj jeszcze raz!</string>
+	<string name="login_remain">zarejestrowanych pozostałe:</string>
+	<string name="login_no">proszę skontaktować się z administratorem, do ataku!</string>
+	<string name="login_fail4">w czasie badań nie powiodła się.</string>
+
+</resources>

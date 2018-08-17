@@ -12,7 +12,9 @@
 	<string name="login_null">登録コードは空になってはいけません。</string>
 	<string name="login_fail1">登録コードが間違っています。</string>
 	<string name="login_fail2">登録失敗、ネットワークをチェックしてください！</string>
+	<string name="login_fail3">登録に失敗して、ネットワークの時間が間違っています。</string>
 	<string name="login_remain">登録した残り:</string>
 	<string name="login_no">管理人に連絡してください！</string>
+	<string name="login_fail4">時間同期に失敗します！</string>
 
 </resources>

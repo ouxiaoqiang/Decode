@@ -12,7 +12,9 @@
 	<string name="login_null">registrering kode, kan ikke være tom.</string>
 	<string name="login_fail1">registrering af fejl, registrering kode er forkert!</string>
 	<string name="login_fail2">registrering mislykkedes, tjek nettet.</string>
+	<string name="login_fail3">registrering mislykkedes, netværket tid, er ukorrekt, prøv igen!</string>
 	<string name="login_remain">registreret overskud:</string>
 	<string name="login_no">kontakt administrator genoplade!</string>
+	<string name="login_fail4">tid synkronisering fejl!</string>
 
 </resources>

@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	<string name="app_name">Registro</string>
-	<string name="action_settings">Siempre</string>
-	<string name="register">Registro</string>
+	<string name="app_name">El registro</string>
+	<string name="action_settings">Establecer</string>
+	<string name="register">El registro</string>
 	<string name="networking">Red</string>
-	<string name="tip">¡Por favor, conecta la red y se inscribe en el registro!</string>
+	<string name="tip">Nota: por favor, conexión de red, luego de registrarse.</string>
 	<string name="warnning">¡Advertencia: por favor, registre en cinco minutos o el sistema se apaga!</string>
 	<string name="login_success">¡Registro de éxito!</string>
-	<string name="login_fail">Fracasos registrados:</string>
+	<string name="login_fail">No de registro:</string>
 	<string name="login_null">¡El Código de registro no está vacío!</string>
-	<string name="login_fail1">¡No de registro, registro de código de error!</string>
+	<string name="login_fail1">¡Un error de registro, el Código de registro es incorrecto!</string>
 	<string name="login_fail2">¡Falla en el registro, por favor, compruebe la red!</string>
+	<string name="login_fail3">Falló el registro, el tiempo de la red es incorrecto.</string>
 	<string name="login_remain">El resto del registro:</string>
-	<string name="login_no">Por favor contacte con el administrador de recarga.</string>
+	<string name="login_no">¡Por favor, recarga al Administrador de contacto!</string>
+	<string name="login_fail4">¡Sincronización de tiempo fracaso!</string>
 
 </resources>

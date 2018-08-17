@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">регистрация</string>
+	<string name="action_settings">настройки</string>
+	<string name="register">регистрация</string>
+	<string name="networking">мрежа</string>
+	<string name="tip">съвет: първо, моля, свързани с мрежа, да се регистрират.</string>
+	<string name="warnning">предупреждение: моля те, след 5 минути за регистрация, иначе системата ще се изключи!</string>
+	<string name="login_success">регистрирана успех!!!!!!!</string>
+	<string name="login_fail">не се е регистрирал:</string>
+	<string name="login_null">регистрационен код не е празна!</string>
+	<string name="login_fail1">регистрира се провали, регистрационен код има грешка!</string>
+	<string name="login_fail2">регистрира се провали, моля те, провери мрежата!</string>
+	<string name="login_fail3">регистрира се провали, мрежа, време е грешка, моля те, опитай отново!</string>
+	<string name="login_remain">регистрирана на останалите:</string>
+	<string name="login_no">моля, свържете се с управителя, презареди!</string>
+	<string name="login_fail4">време е да се провали!</string>
+
+</resources>

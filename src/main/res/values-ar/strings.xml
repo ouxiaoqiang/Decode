@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">مسجلة</string>
+	<string name="action_settings">إعدادات</string>
+	<string name="register">مسجلة</string>
+	<string name="networking">شبكة</string>
+	<string name="tip">نصيحة: يرجى الاتصال بالشبكة، ثم التسجيل!</string>
+	<string name="warnning">تحذير: يرجى التسجيل في 5 دقائق، وإلا فإن النظام سوف إيقاف!</string>
+	<string name="login_success">التسجيل بنجاح!</string>
+	<string name="login_fail">فشل التسجيل:</string>
+	<string name="login_null">كود التسجيل لا يمكن فارغة!</string>
+	<string name="login_fail1">فشل التسجيل كود التسجيل خطأ!</string>
+	<string name="login_fail2">فشل التسجيل، يرجى التحقق من الشبكة!</string>
+	<string name="login_fail3">فشل التسجيل على الشبكة في الوقت الخطأ، يرجى المحاولة مرة أخرى!</string>
+	<string name="login_remain">التسجيل المتبقية:</string>
+	<string name="login_no">يرجى الاتصال مدير شحن!</string>
+	<string name="login_fail4">تزامن وقت الفشل!</string>
+
+</resources>

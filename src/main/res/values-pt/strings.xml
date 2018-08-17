@@ -12,7 +12,9 @@
 	<string name="login_null">Código de registo não Pode ser vazio!</string>
 	<string name="login_fail1">Falha de Registro, Registro de código de erro!</string>
 	<string name="login_fail2">Registro falhou, por favor verifique a rede!</string>
+	<string name="login_fail3">Não há Registro de tempo de rede, erro, por favor tente novamente!</string>
 	<string name="login_remain">O de registo:</string>
 	<string name="login_no">Por favor, entre EM Contato com o Administrador de recarga!</string>
+	<string name="login_fail4">Falha de sincronização de tempo.</string>
 
 </resources>

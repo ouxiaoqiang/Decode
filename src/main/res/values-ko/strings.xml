@@ -12,7 +12,9 @@
 	<string name="login_null">등록 번호는 비울 수 없습니다!</string>
 	<string name="login_fail1">등록 실패, 등록 코드 오류!</string>
 	<string name="login_fail2">등록 실패. 네트워크를 검사해 주세요!</string>
+	<string name="login_fail3">등록 실패, 인터넷 시간 에 오류가 있으니 다시 시도해 보십시오!</string>
 	<string name="login_remain">등록된 잉여:</string>
 	<string name="login_no">관리원에게 연락 값을 충전하세요!</string>
+	<string name="login_fail4">시간 동기화 실패!</string>
 
 </resources>

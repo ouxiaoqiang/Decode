@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.HolatekOSConfig;
 import android.app.HolatekOSManager;
 import android.content.BroadcastReceiver;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
@@ -34,6 +35,8 @@ import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Timer;
+import java.util.TimerTask;
 
 import cn.bmob.v3.Bmob;
 import cn.bmob.v3.BmobQuery;
@@ -82,7 +85,7 @@ public class DecodeActivity extends Activity {
         public void handleMessage(Message msg) {
             final int data = msg.what;
             String str = (String) msg.obj;
-            //更新KeyID表里面id为06f22bdbaa的数据”
+            //
             KeyID key = new KeyID();
             key.setKey(data - 1);
             key.update(str, new UpdateListener() {
@@ -90,10 +93,18 @@ public class DecodeActivity extends Activity {
                 @Override
                 public void done(BmobException e) {
                     if (e == null) {
-                        Toast.makeText(DecodeActivity.this, getString(R.string.login_success), Toast.LENGTH_SHORT).show();
-                        // mTvRemainID.setText("注册成功，注册剩余  " + (data - 1) + "  次！");
                         holatekOSManager.set(HolatekOSConfig.Service.DLP, 0xB8, 5);
-                        finish();
+                      //  Toast.makeText(DecodeActivity.this, getString(R.string.login_success), Toast.LENGTH_SHORT).show();
+                         mTvRemainID.setText(getString(R.string.login_success)+getString(R.string.login_remain) + (data - 1));
+                        TimerTask task = new TimerTask() {
+                            @Override
+                            public void run() {
+                                finish();
+                            }
+                        };
+                        Timer timer = new Timer();
+                        timer.schedule(task, 2000);//2秒后执行TimeTask的run方法
+
                     } else {
                         Toast.makeText(DecodeActivity.this, getString(R.string.login_fail) + e.getMessage(), Toast.LENGTH_SHORT).show();
                         mBtnLogin.setEnabled(true);
@@ -136,9 +147,9 @@ public class DecodeActivity extends Activity {
                     public void done(KeyID object, BmobException e) {
                         if (e == null) {
                             count = object.getKey();
-                            mTvRemainID.setText(getString(R.string.login_remain) + count);
+                           // mTvRemainID.setText(getString(R.string.login_remain) + count);
                             if (count <= 0) {
-                                mTvRemainID.setText(getString(R.string.login_remain) + count + getString(R.string.login_no));
+                                mTvRemainID.setText(getString(R.string.login_remain) + count + "   ,"+getString(R.string.login_no));
                                 return;
                             }
                             mBtnLogin.setEnabled(false);
@@ -165,9 +176,10 @@ public class DecodeActivity extends Activity {
         mBtnNetworking.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                holatekOSManager.set(HolatekOSConfig.Service.DLP, 0xB8, 0);
-                Intent intent = new Intent();
-                intent.setAction("android.settings.WIRELESS_SETTINGS");
+               // holatekOSManager.set(HolatekOSConfig.Service.DLP, 0xB8, 0);
+                Intent intent = new Intent("android.settings.WIRELESS_SETTINGS");
+                ComponentName cName = new ComponentName("com.jmgo.setting","org.cocos2dx.lua.AppActivity");
+                intent.setComponent(cName);
                 startActivity(intent);
             }
         });
@@ -188,6 +200,7 @@ public class DecodeActivity extends Activity {
                 Log.d("oxq", "Network Stat Changed");
                 if (isNetworkConnected()) {
                     new Thread(run).start();
+
                 }
             }
         }

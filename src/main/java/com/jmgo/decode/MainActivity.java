@@ -164,7 +164,7 @@ public class MainActivity extends Activity {
             public void onClick(View view) {
                 KeyID key = new KeyID();
                 key.setId("qwe");
-                key.setKey(10);
+                key.setKey(100);
                 key.save(new SaveListener<String>() {
                     @Override
                     public void done(String objectId, BmobException e) {
